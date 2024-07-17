@@ -1,1 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+.heading-logo img{
+    align-items: center;
+}
+.brand-name {
+    color: lightgreen;
+    font-weight: 800;
+}
+.navbar-brand i {
+    font-size: 45px;
+    color: lightgreen;
+    font-weight: 800;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: rgb(63, 92, 63);
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: blueviolet;
+    
+}
+
+.main-heading h3{
+text-align: center;
+}
+.view-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    background-color: aquamarine;
+    font-family: unset;
+}
+
+
+/* slider carousal */
+
+.card img{
+    height: 300px;
+}
+
+#slider{
+    padding: 40px;
+}
+
+.card-4 img{
+    border-radius: 10px;
+}
+
+ .purchase-button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+   text-align:right;
+   font-size:25px;
+   
+
+}
+
+.purchase-button a{
+    text-decoration:none;
+}
+.purchase-button h6{
+    position: fixed;
+    bottom: 35px;
+    right: 70px;
+   text-align:right;
+   
+   font-size:20px;
+   color: white;
+   background-color: rgb(15, 111, 189);
+   padding: 10px;
+}
+.purchase-button i{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+   text-align:right;
+   font-size:35px;
+   color: white;
+   background-color: rgb(15, 111, 189);
+   padding: 10px;
+}
+.card-author img {
+    width: 50%;
+height: 185px;
+border-radius: 50%;
+margin: 0 auto;
+box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+
+}
+.card-author {
+  border: none;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/* footer */
+.footer-people{
+    background-color: #282828;
+    
+}
+.footer-1
+{
+    border-right: 1px solid #fff;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-1 span{
+    font-size: 100px;
+    color: aquamarine;
+    /* padding: 20px;
+    margin-left: 50px; */
+}
+.footer-1 h2{
+    color: #fff;
+     
+}
+.footer-1 .social-media-footer a{
+    font-size: 25px;
+    background-color:#fff;
+    border-radius: 60%;
+}
+.footer-1 .social-media-footer a:hover{
+    font-size: 25px;
+    background-color:#2033e3;
+    border-radius: 60%;
+}
+.useful-link li a{
+    text-decoration: none;
+}
